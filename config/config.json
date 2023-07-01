@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Geeky Nextjs",
+    "title": "Marcello Gecchele",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_white": "/images/logo-light.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Geeky"
+    "logo_text": "Marcello Gecchele"
   },
   "settings": {
     "theme_switcher": true,
@@ -22,11 +22,11 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "__footer_content__": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
+    "copyright": "**NextJS template: [Geeky](https://github.com/statichunt/geeky-nextjs)** by **[Statichunt](https://statichunt.com/)** <br> Adjusted and edited by **[me](https://gecchele.dev/)**"
   },
   "metadata": {
-    "meta_author": "Statichunt",
+    "meta_author": "Marcello Gecchele",
     "meta_image": "/images/og-image.png",
     "meta_description": "Geeky Nextjs Personal Blog Template"
   },
@@ -45,7 +45,7 @@
       "title": "Blog Categories"
     },
     "newsletter": {
-      "enable": true,
+      "enable": false,
       "title": "Newsletter",
       "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
       "privacy_policy_page": "#",
