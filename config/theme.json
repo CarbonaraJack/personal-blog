@@ -3,14 +3,15 @@
     "default": {
       "theme_color": {
         "primary": "#fb8c00",
-        "__primary__": "#2ba283",
         "body": "#efebe9",
-        "__body__": "#fff",
         "border": "#d7ccc8",
-        "__border__": "#e1e1e1",
         "theme_light": "#f2f2f2",
-        "__theme_light__": "#f2f2f2",
         "theme_dark": "#1a202c",
+        "dropdown_bg_darken_percent": 0.05,
+        "__primary__": "#2ba283",
+        "__body__": "#fff",
+        "__border__": "#e1e1e1",
+        "__theme_light__": "#f2f2f2",
         "__theme_dark__": "#1a202c"
       },
       "text_color": {
@@ -22,12 +23,15 @@
     "darkmode": {
       "theme_color": {
         "primary": "#f57c00",
-        "__primary__": "#059669",
         "body": "#212121",
-        "__body__": "#111",
         "border": "#636363",
         "theme_light": "#f4f7f7",
         "theme_dark": "#383848",
+        "dropdown_bg_darken_percent": 0.4,
+        "__primary__": "#059669",
+        "__body__": "#111",
+        "__border__": "#636363",
+        "__theme_light__": "#f4f7f7",
         "__theme_dark__": "#383848"
       },
       "text_color": {

@@ -1,4 +1,7 @@
 const theme = require("./config/theme.json");
+const Color = require('color')
+
+const darken = (clr, val) => Color(clr).darken(val).rgb().string()
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
 let font_scale = Number(theme.fonts.font_size.scale);
@@ -52,6 +55,7 @@ module.exports = {
         light: theme.colors.default.text_color.light,
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
+        "dropdown-background": darken(theme.colors.default.theme_color.body, theme.colors.default.theme_color.dropdown_bg_darken_percent),
         darkmode: {
           text: theme.colors.darkmode.text_color.default,
           light: theme.colors.darkmode.text_color.light,
@@ -62,6 +66,7 @@ module.exports = {
           border: theme.colors.darkmode.theme_color.border,
           "theme-light": theme.colors.darkmode.theme_color.theme_light,
           "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
+          "dropdown-background": darken(theme.colors.darkmode.theme_color.body, theme.colors.darkmode.theme_color.dropdown_bg_darken_percent),
         },
       },
       fontSize: {

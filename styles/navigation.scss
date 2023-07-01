@@ -47,7 +47,7 @@ body.menu-open {
 }
 
 .nav-dropdown-list {
-  @apply z-10 rounded-lg  border border-transparent bg-body p-4 shadow dark:border-darkmode-border dark:bg-black;
+  @apply z-10 rounded-lg  border border-transparent bg-dropdown-background p-4 shadow dark:border-darkmode-border dark:bg-darkmode-dropdown-background;
 }
 
 .nav-dropdown-item {
