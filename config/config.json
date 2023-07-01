@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Marcello Gecchele",
+    "title": "Geeky Theme Edit",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_white": "/images/logo-light.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Marcello Gecchele"
+    "logo_text": "Geeky Theme Edit"
   },
   "settings": {
     "theme_switcher": true,
@@ -23,10 +23,10 @@
   "params": {
     "tag_manager_id": "",
     "__footer_content__": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "**NextJS template: [Geeky](https://github.com/statichunt/geeky-nextjs)** by **[Statichunt](https://statichunt.com/)** <br> Adjusted and edited by **[me](https://gecchele.dev/)**"
+    "copyright": "**Original NextJS template: [Geeky](https://github.com/statichunt/geeky-nextjs)** by **[Statichunt](https://statichunt.com/)** <br> Adjusted and edited by **[Marcello Gecchele](https://gecchele.dev/)**"
   },
   "metadata": {
-    "meta_author": "Marcello Gecchele",
+    "meta_author": "Statichunt & Marcello Gecchele",
     "meta_image": "/images/og-image.png",
     "meta_description": "Geeky Nextjs Personal Blog Template"
   },
